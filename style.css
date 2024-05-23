@@ -1,3 +1,31 @@
+/* Specially added CSS style */
+
+.normal-text{
+    font-size: 14px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 10px;
+}
+
+.special-padding-top{
+    padding-top: 80px;
+}
+.special-padding-left{
+    padding-left: 20%;
+}
+.special-padding-right{
+    padding-right: 20%;
+}
+/* Specially  added CSS style */
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -7,14 +35,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Added CSS style */
+a{
+    text-decoration: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
 
-a:hover {
-    text-decoration: none;
+a:focus,
+a:hover, a:active {
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -283,8 +317,8 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-2-services p {
-    font-size: 11px;
+#bloc-2-services p { /* Changed font size to bigger */
+    font-size: 14px;
 }
 
 .navbar {
@@ -332,10 +366,6 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -676,8 +706,9 @@ a {
     margin: auto auto auto auto;
 }
 
+/* Added CSS style */
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -699,9 +730,11 @@ p {
     font-weight: 700;
 }
 
+/* Added CSS style */
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding: 30px;
 }
 
 h2 {
@@ -729,6 +762,7 @@ h1 {
 h4 {
     color: #333333!important;
 }
+
 
 .icons {
     margin-bottom: 14px;
@@ -759,7 +793,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    
 }
 
 .service-header {
@@ -780,8 +814,8 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #364577!important;
+.tc-white { /* Changed to white */
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
